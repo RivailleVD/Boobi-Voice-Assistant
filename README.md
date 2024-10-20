@@ -80,10 +80,10 @@ No arquivo Bips/Bips.py, você deve definir o caminho correto para os arquivos d
     python
     stream = mic.open(format=pyaudio.paInt16, channels=1, rate=44100, input=True, frames_per_buffer=8192, input_device_index= ID DO MICROFONE)
 
-    * **Microfone**
+* **Microfone**
       lembre-se, ter um microfone de qualidade é fundamental para o funcionamendo do programa, diferente de outros Sistemas de reconhecimento que utilizam APIs do Google, Amazon, IBM, etc, o vosk é totalmente Offline, logo não possui uma precisão muito boa!
 
-      * **Sensibilidade do microfone**
+* **Sensibilidade do microfone**
         se o seu microfone não possuir um filtro de ruido evite ficar perto de ambientes barulhentos e longe do ventilador, isso certamente vai atrapalhar o reconhecimento da sua voz!
         pelos meus testes recomendo ajustar a sensibilidade do microfone para 55~70% para isolar o ruido ambiente, claro que isso vai depender de cada microfone, então terá de fazer seus próprios testes!
     
