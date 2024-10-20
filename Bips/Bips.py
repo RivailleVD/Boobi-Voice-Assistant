@@ -35,7 +35,7 @@ def Bip_Carregamento ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bips de carregamento/"
+    caminho_pasta = "caminho para a pasta de Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
@@ -62,7 +62,7 @@ def Bip_Inicialização ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bip de inicialização/"
+    caminho_pasta = "caminho para a pasta de Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
@@ -89,7 +89,7 @@ def Bip_Notificação ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bip de notificação/"
+    caminho_pasta = "caminho para a pasta de Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
@@ -116,7 +116,7 @@ def Bip_erro ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bip de Erro/"
+    caminho_pasta = "caminho para a pasta de Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
@@ -143,7 +143,7 @@ def Bip_logout ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bip logout/"
+    caminho_pasta = "caminho para a pasta de Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
