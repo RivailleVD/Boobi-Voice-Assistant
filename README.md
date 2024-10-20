@@ -3,7 +3,7 @@ https://github.com/user-attachments/assets/b4517126-058c-4880-85d5-e1df971c4132
 
 
 ## Reconhecimento de Voz com Vosk 🎙️
-Este projeto explora as capacidades do Vosk, uma ferramenta de reconhecimento de voz offline open-source, e demonstra como integrá-la em aplicações Python de forma personalizada e eficiente.
+Este projeto explora as capacidades do Vosk: https://alphacephei.com/vosk/, uma ferramenta de reconhecimento de voz offline open-source, e demonstra como integrá-la em aplicações Python de forma personalizada e eficiente.
 
 ### 📚 Sobre o Projeto
 O objetivo deste projeto é proporcionar um exemplo prático de integração do Vosk com Python, permitindo o reconhecimento de voz de maneira eficaz e sem a necessidade de conexão com a internet.
