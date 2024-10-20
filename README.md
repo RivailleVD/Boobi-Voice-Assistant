@@ -1,3 +1,7 @@
+https://github.com/user-attachments/assets/b4517126-058c-4880-85d5-e1df971c4132
+
+
+
 ## Reconhecimento de Voz com Vosk 🎙️
 Este projeto explora as capacidades do Vosk, uma ferramenta de reconhecimento de voz offline open-source, e demonstra como integrá-la em aplicações Python de forma personalizada e eficiente.
 
