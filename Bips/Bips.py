@@ -8,7 +8,7 @@ def Bip_aleatorio ():
     pygame.mixer.init()
 
     # Caminho para a pasta que contém os arquivos de áudio
-    caminho_pasta = "/home/levs/Músicas/Bips/Bips aleatorios"
+    caminho_pasta = "caminho para a pasta com Bips"
 
     # Obtém uma lista de todos os arquivos na pasta
     arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]

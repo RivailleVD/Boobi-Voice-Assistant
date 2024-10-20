@@ -11,7 +11,7 @@ from time import sleep
 def reconhecimento_continuo():
     # Inicializa o Vosk com o modelo 
     logging.getLogger("VoskAPI").setLevel(logging.ERROR)
-    model = vosk.Model(r'/home/levs/Área de trabalho/Boobi v1.0 stable git/vosk-model-small-pt-0.3')  # Ajuste o caminho do modelo
+    model = vosk.Model(r'Seu caminho para o modelo de reconhecimento')  # Ajuste o caminho do modelo
     recognizer = vosk.KaldiRecognizer(model, 44100)
 
     # Configurações do PyAudio
